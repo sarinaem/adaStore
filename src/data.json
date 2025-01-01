@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "کوله‌پشتی مدل یاس",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/backpack.jpg"
+    },
+
+    {
+      "id": "2",
+      "title": "کوله‌پشتی مدل کهکشان",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/bag-for-children.jpg"
+    },
+    {
+      "id": "3",
+      "title": "کیف زنانه کوچک",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/bag-for-woman.jpg"
+    },
+    {
+      "id": "4",
+      "title": "کیف زنانه مدل کشیده",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/bag-small.jpg"
+    },
+    {
+      "id": "5",
+      "title": "کوله‌پشتی کوچک مدل کمری",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/small-backpack.jpg"
+    },
+    {
+      "id": "6",
+      "title": "کیف زنانه با طرح جین",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/jane-small-bag.jpg"
+    },
+    {
+      "id": "7",
+      "title": "کیف زنانه‌ی کوچک قرمز",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/red-bag.jpg"
+    },
+    {
+      "id": "8",
+      "title": "کیف کمری سبز رنگ",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/small-backpack.jpg"
+    },
+    {
+      "id": "9",
+      "title": "کوله‌پشتی زنانه",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/bag-for-laptop.jpg"
+    },
+    {
+      "id": "10",
+      "title": "کوله‌پشتی لپ‌تاپ",
+      "price": "3.000.000 تومان",
+      "img": "./src/assets/img/bag-for-laptop.jpg"
+    }
+  ]
+}
