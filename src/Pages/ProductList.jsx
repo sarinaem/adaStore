@@ -24,12 +24,6 @@ export default function ProductList({
 
   const Pages = Math.ceil(filteredProducts.length / element);
 
-  // const startIndex = (currentPage - 1) * element;
-  // const currentProducts = filteredProducts.slice(
-  //   startIndex,
-  //   startIndex + element
-  // );
-
   const handleAddToCart = (product) => {
     setActiveProductId(product.id);
     addToCart(product);
@@ -66,18 +60,13 @@ export default function ProductList({
         </button>
       </div>
       <div className="grid md:grid-cols-1 gap-4 mt-3">
-        {/* {currentProducts.map((item) => (
-          <div key={item.id} className="flex flex-col mb-4"> */}
         <ProductItam
-          // item={item}
           handleAddToCart={handleAddToCart}
           activeProductId={activeProductId}
           cart={cart}
           handleIncrease={handleIncrease}
           handleDecrease={handleDecrease}
         />
-        {/* </div> */}
-        {/* ))} */}
       </div>
       <p className="flex flex-row gap-2 text-[#8e03d0] items-center justify-center mt-4">
         مشاهده بیشتر
@@ -85,13 +74,13 @@ export default function ProductList({
       </p>
       <div className="flex mt-4 flex-row items-center justify-center gap-2">
         <button onClick={handlePreviousPage} disabled={currentPage === 1}>
-          قبلی
+          قبل
         </button>
         <span className="text-[#8e03d0]">
           صفحه {currentPage} از {Pages}
         </span>
         <button onClick={handleNextPage} disabled={currentPage === Pages}>
-          بعدی
+          بعد
         </button>
       </div>
     </div>
